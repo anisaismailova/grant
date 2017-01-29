@@ -10,39 +10,6 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.lol.grant.MainActivity">
 
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:text="введие название гранта"
-        android:ems="10"
-        android:layout_alignParentTop="true"
-        android:id="@+id/grantName"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentStart="true" />
-
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:text="введите описание гранта"
-        android:ems="10"
-        android:layout_below="@+id/grantName"
-        android:layout_alignEnd="@+id/grantName"
-        android:layout_marginTop="11dp"
-        android:id="@+id/grantDescription"
-        android:layout_alignParentStart="true" />
-
-    <Button
-        android:text="опубликовать"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/publishButton"
-        android:layout_below="@+id/grantDescription"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="55dp"
-        android:layout_alignParentEnd="true" />
-
     <TextView
         android:text="TextView"
         android:layout_width="wrap_content"
@@ -52,4 +19,12 @@
         android:layout_below="@+id/publishButton"
         android:layout_alignParentStart="true"
         android:layout_marginTop="19dp" />
+
+    <Button
+        android:text="Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:id="@+id/button2" />
 </RelativeLayout>
